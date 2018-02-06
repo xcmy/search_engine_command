@@ -4,6 +4,11 @@
 ---
 
 
+### 来源
+
+[https://www.zhihu.com/question/20161362]()
+
+[http://blog.csdn.net/wei18359100306/article/details/50109203]()
 
 ### 搜索命令清单
 
@@ -33,14 +38,35 @@
 |time1..time2 | 只显示从time1到time2时间段内的内容| golang 2018..2019 |
 
 
-### 来源
-[https://www.zhihu.com/question/20161362]()
-
-[http://blog.csdn.net/wei18359100306/article/details/50109203]()
-
 
 
 > ##### 以上命令可混合使用使查找更精确。“link”不能与其他语法相混合操作，所以“link:”后面即使有空格，也将被GOOGLE忽略
 
 
 百度也支持减号、site、inurl、intitle、filetype等命令
+
+
+### 常用命令举例
+
+- ###### 搜索github上关于go的项目，并且项目url中包含golang
+```
+inurl:golang go site:github.com
+```
+
+- ###### 搜索golang的pdf学习资源
+```
+golang filetype:pdf
+```
+- ###### 搜索github上title包含golang的资源
+```
+intitle:golang inurl:github.com
+```
+
+
+
+- ###### 搜索电影天堂里面海贼王的资源
+```
+海贼王 site:http://www.dytt8.net/
+```
+
+- ##### 待补充
